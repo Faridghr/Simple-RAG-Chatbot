@@ -1,2 +1,58 @@
 # Simple-RAG-Chatbot
 Build a simple RAG chatbot with LangChain and Streamlit
+
+## Overview
+The primary objective of this project is to develop a chatbot that leverages Large Language Models (LLM) to assist users in planning their travels. The chatbot aims to provide personalized recommendations, detailed itineraries, and useful travel tips, making the travel planning process easier and more efficient.
+
+## Technology Stack:
+- **Frontend**: Streamlit for building the user interface.
+- **Backend**: Ollama LLM model running on a local machine for natural language processing and query handling.
+
+## Project Structure
+- **src/**: Contains Python-based chatbot script and stremlit_main script.
+- **report/**: Stores [Report](report) files.
+- **video/**: Contains [video](video) presentation. You can also watch the video on [YouTube](https://youtu.be/vMrnyC7BkRE).
+
+## Dependencies
+- Python 3.7+
+- langchain
+- pinecone-client
+- python-dotenv
+- streamlit
+
+## Usage
+1. Clone the repository: `git clone https://github.com/Faridghr/Simple-RAG-Chatbot.git`
+2. Navigate to the project directory: `cd Simple-RAG-Chatbot`
+3. Install dependencies: `pip install -r requirements.txt`
+4. Navigate to src directory: `cd src`
+5. Run the Streamlit application: `streamlit run streamlitMain.py`
+5. Open your web browser and navigate to the URL provided by Streamlit (usually http://localhost:8501).
+6. Interact with the chatbot by typing messages and receiving responses from the local LLM service.
+
+## Setting up LLMs
+Ensure your local language model service is running:
+
+### Installation Instructions:
+### macOS
+1.	Download the [Ollama installer for macOS](https://ollama.com/download/Ollama-darwin.zip).
+2.	Extract the downloaded ZIP file.
+3.	Open Terminal and navigate to the extracted folder.
+4.	Run the following command to install Ollama: `./install.sh`
+
+### Windows Preview
+1.	Download the [Ollama for Windows](https://ollama.com/download/OllamaSetup.exe) setup executable.
+2.	Run the downloaded executable file and follow the on-screen instructions to complete the installation.
+
+### Linux
+1.	Open a terminal window.
+2.	Run the following command to install Ollama: `curl -fsSL https://ollama.com/install.sh | sh`
+
+For further instructions, visit the [Ollama GitHub page](https://github.com/ollama/ollama).
+
+### After installing Ollama, start the service
+
+Start your local instance of the LLM service (e.g., llama). Example command to start the service: `ollama serve --model llama3`
+
+## Acknowledgment
+This LLM model was originally published by [Ollama](https://github.com/ollama/ollama).
+
