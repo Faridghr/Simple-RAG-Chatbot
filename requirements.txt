@@ -1,0 +1,4 @@
+langchain
+pinecone-client
+python-dotenv
+streamlit
