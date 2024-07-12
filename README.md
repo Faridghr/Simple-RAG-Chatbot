@@ -11,6 +11,7 @@ The goal of this project is to develop a **domain-specific application** that co
 
 ## Project Structure
 - **src/**: Contains Python-based chatbot script and Streamlit main script.
+- **src/materials/**: Contains data that our model will use to answer questions.
 - **report/**: Stores [Report](report) files.
 - **video/**: Contains [video](video) presentation. You can also watch the video on [YouTube]().
 - **.env**: Contains API keys.
@@ -21,6 +22,7 @@ The goal of this project is to develop a **domain-specific application** that co
 - pinecone-client
 - python-dotenv
 - streamlit
+- pypdf
 
 ## Usage
 1. Clone the repository: `git clone https://github.com/Faridghr/Simple-RAG-Chatbot.git`
@@ -33,29 +35,12 @@ The goal of this project is to develop a **domain-specific application** that co
 7. Open your web browser and navigate to the URL provided by Streamlit (usually http://localhost:8501).
 8. Interact with the chatbot by typing messages and receiving responses from the local LLM service.
 
-## Setting up LLM
-Ensure your local language model service is running:
-
-### Installation Instructions:
-### macOS
-1.	Download the [Ollama installer for macOS](https://ollama.com/download/Ollama-darwin.zip).
-2.	Extract the downloaded ZIP file.
-3.	Open Terminal and navigate to the extracted folder.
-4.	Run the following command to install Ollama: `./install.sh`
-
-### Windows Preview
-1.	Download the [Ollama for Windows](https://ollama.com/download/OllamaSetup.exe) setup executable.
-2.	Run the downloaded executable file and follow the on-screen instructions to complete the installation.
-
-### Linux
-1.	Open a terminal window.
-2.	Run the following command to install Ollama: `curl -fsSL https://ollama.com/install.sh | sh`
-
-For further instructions, visit the [Ollama GitHub page](https://github.com/ollama/ollama).
-
-### After installing Ollama, start the service
-
-Start your local instance of the LLM service (e.g., llama). Example command to start the service: `ollama serve --model llama3`
+## Setting Up OpenAI API
+1. Enter our OpenAI account and navigate to [OpenAI Platform](https://platform.openai.com/apps). 
+2. Navigate to the API section.
+3. Proceed to create a new API key by pressing '+ Create' new secret key.
+4. Select a suitable name to remember and press the Create secret key button.
+5. Copy the secret key and add your OpenAI API Keys in a file called `.env`.
 
 ## Setting up Pinecone
 1. To create a PineCone account, sign up via this link: [Pinecone](https://www.pinecone.io/)

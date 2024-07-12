@@ -1,4 +1,8 @@
 langchain
+langchain-community
+sentence-transformers
+langchain_pinecone
 pinecone-client
 python-dotenv
 streamlit
+pypdf
