@@ -13,7 +13,7 @@ The goal of this project is to develop a **domain-specific application** that co
 - **src/**: Contains Python-based chatbot script and Streamlit main script.
 - **src/materials/**: Contains data that our model will use to answer questions.
 - **report/**: Stores [Report](report) files.
-- **video/**: Contains [video](video) presentation. You can also watch the video on [YouTube]().
+- **video/**: Contains [video](video) presentation. You can also watch the video on [YouTube](https://youtu.be/wo-0wUplqSM).
 - **.env**: Contains API keys.
 
 ## Dependencies
