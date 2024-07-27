@@ -49,6 +49,4 @@ The goal of this project is to develop a **domain-specific application** that co
 4. After the project is created, go into the API Keys section, and make sure you have an API key available. Do not share this API key.
 5. After completing the account setup, you can add your Pinecone API Keys in a file called `.env`.
 
-## Acknowledgment
-This LLM model was originally published by [Ollama](https://github.com/ollama/ollama).
 
