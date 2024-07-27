@@ -6,7 +6,7 @@ The goal of this project is to develop a **domain-specific application** that co
 ## Technology Stack:
 - **Frontend**: Streamlit for building the user interface.
 - **Vector Database**: Pinecone for efficient data storage and retrieval. 
-- **LLM**: Ollama LLM model running on a local machine for natural language processing and query handling.
+- **LLM**: OpenAI model for natural language processing and query handling.
 - **Backend**: LangChain framework utilizing the RAG method.
 
 ## Project Structure
